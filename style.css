@@ -1,0 +1,132 @@
+body{
+    width: 99%;
+    height:90vh;
+    background-size: cover;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    margin: -16px;
+    display: flex;
+   
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 34px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.logo {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    margin-top: 10px;
+}
+
+.navbar-right {
+    float: right;
+}
+
+
+@media screen and (max-width: 100px) {
+    nav,nav a, .logo, .navbar-right,.section,#image-and-name,.testimonial,.testimonial-images,#footer {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-right {
+        margin-top: 16px;
+    }
+}
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+
+#image-and-name {
+    background: url(travel-hd-axhrsecphqby11wk.jpg);
+    background-size:cover;
+    height: 82%;
+    color: white;
+    margin: -1.2%;
+
+}
+#image-and-name h1{
+    font-size: 60px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#image-and-name p {
+    font-style: italic;
+    color:black;
+    margin-top: -35px;
+    margin-left: 353px;
+}
+#about-destination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -1.3%;
+}
+
+#about-destination img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+    padding-left: 12px;
+}
+#testimonials {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: -1.3%;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    text-align: center;
+    height: 100%;
+    margin: -1.3%;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.testimonial-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-images img {
+    max-width: 30%;
+    height: auto;
+    margin-top: 80px;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    /* width: 100%; */
+    margin: -1.3%;
+}
